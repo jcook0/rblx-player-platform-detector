@@ -13,7 +13,7 @@ end
 local event = Instance.new("RemoteEvent", ReplicatedStorage)
 event.Name = "PlayerPlatform"
 
-local client = script.Platform
+local client = script.Parent.Platform
 client.Parent = starterPlayerScripts
 client.Disabled = false
 
