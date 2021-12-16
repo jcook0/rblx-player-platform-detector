@@ -18,5 +18,3 @@ end
 local platform = getPlatform()
 
 event:FireServer(platform)
-
-script:Destroy()
