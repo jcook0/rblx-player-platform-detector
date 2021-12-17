@@ -22,5 +22,4 @@ local function getPlatform()
 end
 
 local platform = getPlatform()
-
 event:FireServer(platform)
