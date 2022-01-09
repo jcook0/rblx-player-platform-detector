@@ -2,7 +2,6 @@ local GuiService = game:GetService("GuiService")
 local UserInputService = game:GetService("UserInputService")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
-local lp = game.Players.LocalPlayer
 local camera = workspace:WaitForChild("CurrentCamera")
 local event = ReplicatedStorage:WaitForChild("PlayerPlatform", 20)
 
