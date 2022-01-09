@@ -19,8 +19,6 @@ client.Disabled = false
 
 --[[ Server Event ]] --
 local eventConnection = event.OnServerEvent:Connect(function(player, platformType)
-	player:SetAttribute("Platform","Desktop")
-	
 	if not platformType then return end
 	
 	player:SetAttribute("Platform", platformType)
