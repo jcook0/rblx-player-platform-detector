@@ -1,2 +1,2 @@
-# RBLX-Player-Platform-Detector
+# Ro Player Platform Detector
 A simple way to detect a player's platform type on ROBLOX.
