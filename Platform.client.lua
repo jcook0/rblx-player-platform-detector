@@ -10,7 +10,7 @@ local function getPlatform()
 		return "Console"
 	elseif UserInputService.TouchEnabled and not UserInputService.MouseEnabled then
         	local DeviceSize = camera.ViewportSize
-		if ( DeviceSize.Y > 600 ) then
+		if DeviceSize.Y > 600 then
 			return "Tablet"
 		else
 			return "Phone"
