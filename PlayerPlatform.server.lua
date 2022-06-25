@@ -18,8 +18,7 @@ client.Parent = starterPlayerScripts
 client.Disabled = false
 
 --[[ Server Event ]] --
-local eventConnection = event.OnServerEvent:Connect(function(player, platformType)
+event.OnServerEvent:Connect(function(player, platformType)
 	if not platformType then return end
-	
 	player:SetAttribute("Platform", platformType)
 end)
